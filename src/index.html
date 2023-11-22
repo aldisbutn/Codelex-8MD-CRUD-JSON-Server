@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-title-wrapper">
+        <h1>F1 Driver Registry</h1>
+    </div>
+    <div class="driver-wrapper js-driver-wrapper">
+    </div>
+    
+    <div class="form-wrapper">
+        <hr>
+        <h2>Register a Driver!</h2>
+        <form class="js-driver-form driver-form">
+            <input class="input" type="text" name="driverName" placeholder="Full Name" required>
+            <input class="input" type="number" name="racesWon" placeholder="Races Won" required>
+            <input class="input" type="text" name="favTrack" placeholder="Favorite Track" required>
+            <input class="input" type="text" name="teamName" placeholder="Team Name" required>
+            <input class="input" type="text" name="photoURL" placeholder="Photo URL" required>
+            <button class="button button-add">
+                Add Driver
+            </button>
+        </form>
+    </div>
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
