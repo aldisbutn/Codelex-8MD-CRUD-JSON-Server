@@ -8,4 +8,3 @@ When all packages have been installed run:
 ```
 npm start
 ```
-# Codelex-3MD-Flex-Grid-Layout-Figma
